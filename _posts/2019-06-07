@@ -1,0 +1,16 @@
+---
+layout: post
+title: 2019-06-07
+author: Adriana
+---
+
+{{ 2019-06-07 }}
+================
+
+<p class="meta">7 June 2019</p>
+
+I spent today focusing on one specific task I laid out for myself yesterday in my TODO comments. This was to implement a sort of "garbage": a drag and drop box that could be used to quickly and easily remove icons from the role selector. In identifying named entities, our program still makes some errors. Though it is possible to match icons to their instances by number, I wanted to implement a simpler mechanic so that the user could quickly and efficiently delete all of the little "'m"s and "LOL"s that pop up instead of having to scroll through the conversation and manually toggle each one to "none". I added an extra tkinter canvas widget to perform this task, integrated this new canvas into all of the various drag and drop functionalities, and spent the afternoon getting the delete option to interface smoothly with both the conversation navigator and the role selector. 
+
+Though the end result is just one more widget, actually producing this new feature took a lot of patience. Much of the code I needed this specific widget to interface with was written by somebody else, and lacked a lot of explanatory comments. I ended up tracing through the program slowly, with specific unit tests, often using print statements to confirm suspicions or plans of action. I commented code as I came to understand it, which was a good exercise in getting a handle on the different pieces as well as an extremely beneficial action which should make future work hopefully somewhat easier to accomplish. By the end I'd managed to not only build the widget that I set out to today but clean up some of the code for future use or tweaks.
+
+I will probably continue this strategy as I continue to work. The other major change I intend to make to the interface is one that I've been struggling with for a bit (dynamic updates to sizing, which neither Daniel nor I fully fixed). I'll probably spend some time tracing through the different pieces and commenting all of the different classes and methods as I forumlate a solution for this bug. With any luck it won't take too long, and then I think I'll finally be happy with the visual interface of this program.
