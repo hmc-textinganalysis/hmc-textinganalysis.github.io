@@ -15,33 +15,33 @@ It is built out of a hierarchal system of classes which handles both backend
 categorization as well as front end user display/functionality. The hierarchy is
 as follows:
 
-                                      top
+                                          top
                                       
-                                       |
+                                           |
                                        
-                                      LAST
+                                          LAST
                                       
-                                  /          \
+                                      /          \
                                   
-             ConversationNavigator            RoleSelector
+                 ConversationNavigator            RoleSelector
              
-               |                  \          /             \
-               
-           UtteranceRow       VerticalScrolledFrame       CanvasControl
+                   |                  \          /             \
+                
+               UtteranceRow       VerticalScrolledFrame       CanvasControl
            
-          /      |          \                 |                |          \
-        
-  Message  IphoneUtterance AndroidUtterance   |       CanvasWrapper       Icon*
-
-     |                                        |                            |
+             /     |        \                   |                   |        \
+     
+    Message  IphoneUtterance  AndroidUtterance  |           CanvasWrapper    Icon*
+    
+         |                                      |                             |
    
-  MessageRow                          Scrolling_Area                    DndHandler
+    MessageRow                          Scrolling_Area                    DndHandler
 
-     |                                        |
+         |                                      |
 
-  TokenLabel*                         Mousewheel_Support
+    TokenLabel*                         Mousewheel_Support
           
-                                                                      *connected
+                                                                          *connected
 
 By file:
 
