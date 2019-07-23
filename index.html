@@ -4,6 +4,12 @@ title: HMC Texting Analysis Blog
 ---
 
 <div id="home">
+  <h1>Guides</h1>
+  <ul class="posts">
+    {% for post in site.docs %}
+        <li><span>{{ post.date | date_to_string }}</span> {{ post.author }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
   <h1>Team Members' Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
