@@ -14,18 +14,31 @@ python3 library spaCy to parse through documents and categorize named entities.
 It is built out of a hierarchal system of classes which handles both backend
 categorization as well as front end user display/functionality. The hierarchy is
 as follows:
+
                                       top
+                                      
                                        |
+                                       
                                       LAST
+                                      
                                   /          \
+                                  
              ConversationNavigator            RoleSelector
+             
                |                  \          /             \
+               
            UtteranceRow       VerticalScrolledFrame       CanvasControl
+           
         /      |          \                 |                |          \
+        
 Message  IphoneUtterance  AndroidUtterance  |          CanvasWrapper    Icon*
+
    |                                        |                            |
+   
 MessageRow                          Scrolling_Area                    DndHandler
+
    |                                        |
+   
 TokenLabel*                         Mousewheel_Support
 
                                                                       *connected
