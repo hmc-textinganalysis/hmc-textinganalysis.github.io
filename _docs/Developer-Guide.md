@@ -44,11 +44,15 @@ TokenLabel*                         Mousewheel_Support
                                                                       *connected
 
 By file:
+
     last.py:      [top, LAST, ConversationNavigator, RoleSelector, UtteranceRow,
                    IphoneUtterance, AndroidUtterance, Message, MessageRow,
                    TokenLabel]
+                   
     scrolling.py: [VerticalScrolledFrame, Scrolling_Area, Mousewheel_Support]
+    
     dnd.py:       [CanvasControl, CanvasWrapper, Icon, DndHandler]
+    
 
 The general outline of each of those classes is as follows:
   - top:  Our call to initialize tkinter in our program. The root of everything.
