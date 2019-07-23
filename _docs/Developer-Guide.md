@@ -16,29 +16,17 @@ categorization as well as front end user display/functionality. The hierarchy is
 as follows:
 
                                           top
-                                      
                                            |
-                                       
                                           LAST
-                                      
                                       /          \
-                                  
                  ConversationNavigator            RoleSelector
-             
                    |                  \          /             \
-                
                UtteranceRow       VerticalScrolledFrame       CanvasControl
-           
              /     |        \                   |                   |        \
-     
     Message  IphoneUtterance  AndroidUtterance  |           CanvasWrapper    Icon*
-    
          |                                      |                             |
-   
     MessageRow                          Scrolling_Area                    DndHandler
-
          |                                      |
-
     TokenLabel*                         Mousewheel_Support
           
                                                                           *connected
