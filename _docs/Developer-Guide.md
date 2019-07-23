@@ -31,7 +31,7 @@ as follows:
            
           /      |          \                 |                |          \
         
-  Message       IphoneUtterance       AndroidUtterance       |       CanvasWrapper       Icon*
+  Message  IphoneUtterance AndroidUtterance   |       CanvasWrapper       Icon*
 
      |                                        |                            |
    
