@@ -4,7 +4,7 @@ title: User Guide
 author: Adriana
 ---
 
-{{ 2019-07-23 }}
+{{ User Guide }}
 ================
 
 <p class="meta">23 July 2019</p>
