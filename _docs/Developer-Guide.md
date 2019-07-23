@@ -29,18 +29,18 @@ as follows:
                
            UtteranceRow       VerticalScrolledFrame       CanvasControl
            
-        /      |          \                 |                |          \
+          /      |          \                 |                |          \
         
-Message  IphoneUtterance  AndroidUtterance  |          CanvasWrapper    Icon*
+  Message  IphoneUtterance  AndroidUtterance  |          CanvasWrapper    Icon*
 
-   |                                        |                            |
+     |                                        |                            |
    
-MessageRow                          Scrolling_Area                    DndHandler
+  MessageRow                          Scrolling_Area                    DndHandler
 
-   |                                        |
-   
-TokenLabel*                         Mousewheel_Support
+     |                                        |
 
+  TokenLabel*                         Mousewheel_Support
+          
                                                                       *connected
 
 By file:
