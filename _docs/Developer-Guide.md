@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Developer Guide
-author: Adriana
 ---
 
 {{ Developer Guide }}
