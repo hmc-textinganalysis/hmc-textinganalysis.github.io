@@ -1,7 +1,6 @@
 ---
 layout: post
 title: User Guide
-author: Adriana
 ---
 
 {{ User Guide }}
