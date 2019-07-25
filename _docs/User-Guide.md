@@ -25,7 +25,8 @@ labels and select 'delete' to quickly remove misidentified words. Scroll through
 all of the pages of the conversation navigator to ensure that nothing got missed
 or miscategorized. In case of duplicate words that belong in different contexts,
 right click the label in the role selector and select 'split' to break it into
-unique instances. Using the provided unique indices as reference, categorize as
+unique instances. You may also select 'join' to rejoin labels if you change your
+mind about splitting. Using the provided unique indices as reference, categorize as
 finely as you like. Once satisfied, select save from the menu. The program will
 process your file and produce a .csv file with all instances of identified,
 categorized words replaced with placeholders indicating category. Additionally,
@@ -37,10 +38,10 @@ adapted model) without deanonymizing the output file and thus invalidating the
 program's work.
 
 Role Selector:
-Occupying the top half of the program, the role selector consists of 4 colored
+Occupying the top half of the program, the role selector consists of four colored
 boxes indicating each of the major four categories (Participant, Partner, Other
 Person, and Other Entities). When files are loaded into
-the program, LAST runs a first categorization to categorize as many named
+the program, LAST parses through the file categorizes as many named
 entities as it sees. Those entities are placed in either of the two "other"
 categories based off of our natural language processing library's estimates.
 From there, the user may drag and drop these labels back and forth between the
@@ -51,7 +52,8 @@ the categorization of a word, right click labels and click 'split' to split them
 unique labels for each instance. Each label will now only be associated with the
 into one instance of the word whose index matches. Dragging and dropping a split
 label will only update one word at a time. Words with only one instance cannot
-be split. Any changes made up top in the role selector are reflected down below
+be split. If you change your mind about splitting tokens, select join to regroup them.
+Any changes made up top in the role selector are reflected down below
 in the conversation navigator.
 
 Conversation Navigator:
